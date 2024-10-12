@@ -1,0 +1,293 @@
+*
+{
+  border:0;
+  margin:0;
+  padding:0;
+}
+body
+{
+    width: 800px;
+    margin: auto;
+    display: grid;
+    background-color: #FFF;
+   
+
+}
+/* de definities  h1.mobile t/m p zijn om overeen te komen met de figma styles */
+
+h1.mobile
+{
+    font-family: ABeeZee;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+h2.mobile
+{
+    font-family: ABeeZee;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+h3.mobile
+{
+    font-family: ABeeZee;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+h4.mobile
+{
+    font-family: ABeeZee;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+
+}
+h1.desktop
+{
+    font-family: ABeeZee;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+h2.desktop
+{
+    font-family: ABeeZee;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+h3.desktop
+{
+    font-family: ABeeZee;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+h4.desktop
+{
+    font-family: ABeeZee;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+
+}
+p
+{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+
+}
+p>img
+{
+    width: 50%;
+}
+#allnav
+{
+    background-color: #FF600A;
+    
+
+}
+a
+{
+  
+    height: 100%;
+    float: left;
+}
+#mainlogo
+    {
+        float: left;
+    }
+a>img
+    {
+    display: block;
+    margin: auto;
+    height: 100%;
+}
+#headerImg
+    {
+        width: 100%;
+    }
+ul
+{
+    
+    text-align: center; 
+    display: block;
+}
+ul>li
+{
+    display: inline;
+
+}
+ul>li>a
+{
+    padding:8px;
+
+}
+nav
+{
+    clear: right;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #FF600A;
+}
+article>a
+{
+    color: #FFFF10;
+
+}
+main
+{
+    clear: both;
+    width: 100%;
+}
+main>article
+{
+    float: left;
+    width: 50%;
+}
+main>article>a
+{
+    float: left;
+}
+footer
+{
+    clear: both;
+    width: 100%;
+}
+#section1
+{
+    width: 30%;
+    float: left;
+}
+#section2
+{
+    width: 70%;
+    float: left;
+}
+#section2>aside
+{
+    width: 30%;
+    float: left;
+}
+#section2>article
+{
+    width: 30%;
+    float: left;
+}
+#section2>section
+{
+    width: 40%;
+    float: left;
+}
+#section2>section>a>img
+{
+    width: 20%;
+    margin: 5%;
+}
+#menu-toggle
+{
+    display: none;
+
+}
+.hamburger
+{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+
+}
+.hamburger span
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #FFFF10;
+
+}
+.hamburger span:nth-child(1)
+{
+    top: 0;
+
+}
+.hamburger span:nth-child(2)
+{
+    top: 9px;
+
+}
+.hamburger span:nth-child(3)
+{
+    bottom:  0;
+
+}
+.menu
+{
+    position: absolute;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #FF600A;
+    color: #FFF;
+
+
+}
+.menu ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+.menu li ul
+{
+    padding: 10px;
+}
+.menu li ul a
+{
+    color: #FFF;
+    text-decoration: none;
+}
+#menu-toggle:checked~.menu
+{
+    left: 0;
+}
+@media screen and (min-width:769)
+{
+    #phonenav,.mobile
+    {
+    display: none;
+
+    }   
+    
+}
+@media screen and (max-width:768) 
+{
+    #computernav,.desktop
+    {
+    display: none;
+
+    }
+    
+}
