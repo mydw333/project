@@ -291,7 +291,7 @@
   {
       left: 0;
   }
-  @media screen and (min-width:769)
+  @media screen and (min-width:769px)
   {
       #phonenav,.mobile
       {
@@ -300,7 +300,7 @@
       }   
       
   }
-  @media screen and (max-width:768) 
+  @media screen and (max-width:768px) 
   {
       #computernav,.desktop
       {
