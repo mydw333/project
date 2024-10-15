@@ -314,3 +314,15 @@
     z-index: 9999;
 
   }
+  :mouseoverlink
+  {
+    border-color: #FF600A;
+    border-style: double;
+    border-width: 1rem;
+
+  }
+  :selectedlink
+  {
+    color: #FF600A;
+
+  }
