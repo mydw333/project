@@ -1,0 +1,5 @@
+Student name: Menno de Wever 
+Student number: 728950
+Student class: inf 1b 
+GitHub Repository: https://github.com/mydw333/project 
+GitHub Pages URL: https://mydw333.github.io/project/
