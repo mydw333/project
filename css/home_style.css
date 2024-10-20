@@ -11,11 +11,11 @@
       display: grid;
       background-color: #FFF;
       grid-template-areas:
-      "navtag      navtag      "
-      "headertag   headertag   "
-      "article1tag article2tag "
-      "article3tag article4tag "
-      "footertag   footertag   "
+      "navtag          navtag      "
+      "headertag       headertag   "
+      "article1tag     article2tag "
+      "article3tag     article4tag "
+      "footertag       footertag   "
       ;
   
   }
