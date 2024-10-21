@@ -121,6 +121,10 @@
   #mainlogo
       {
           float: left;
+          letter-spacing: normal;
+          text-indent: 1em;
+          word-spacing: normal;
+          text-transform: uppercase;
       }
   a>img
       {
